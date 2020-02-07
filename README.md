@@ -48,5 +48,9 @@ Use this api call to find the total amount of a mortgage and mortgage insurance 
 
 *Must be at least 5% of first $500k plus 10% of any amount above $500k (So $50k on a $750k
 mortgage)
-** Min 5 years, max 25 years	
+
+
+** Min 5 years, max 25 years
+
+
 *** Weekly, biweekly, monthly
