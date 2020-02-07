@@ -19,14 +19,21 @@ command to start the web api.
 Replace the {} in the following calls with the correct information. 
 
 **/payment-amount [GET]**
+
+
 *dev-server-url-here* **/payment-amount?askingprice={}&downpayment={}&schedule={}&period={}**
 Use this api call to find the recurring payment amount of a mortgage with a specific asking price, down payment*, payment schedule**, amortization period***. The rate of the mortgage will be the one you prespecified or the default 2.5%
 
 **/mortgage-amount [GET]**
+
+
 *dev-server-url-here* **/mortgage-amount?paymentamount={}&schedule={}&period={}**
 Use this api call to find the total amount of a mortgage and mortgage insurance with a recurring payment value, payment schedule**, amortization period***. The rate of the mortgage will be the one you prespecified or the default 2.5%
 
+
 **/interest-rate [PATCH]**
+
+
 *dev-server-url-here* **/interest-rate**
 **Request body:**
 
